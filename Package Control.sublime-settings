@@ -1,8 +1,10 @@
 {
 	"installed_packages":
 	[
+		"BracketHighlighter",
 		"FileBrowser",
 		"GotoRecent",
+		"HighlightWords",
 		"Package Control",
 		"Tomorrow Color Schemes",
 		"TrailingSpaces"

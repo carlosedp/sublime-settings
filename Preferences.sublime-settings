@@ -2,9 +2,9 @@
 	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
 	"font_face": "Fantasque Sans Mono",
 	"font_size": 13,
-	"open_files_in_new_window": false,
 	"ignored_packages":
 	[
 		"Vintage"
-	]
+	],
+	"open_files_in_new_window": false
 }
