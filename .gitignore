@@ -1,4 +1,5 @@
 *.pyc
+bh_unicode_properties.cache
 Package\ Control.last-run
 Package\ Control.ca-list
 Package\ Control.ca-bundle
