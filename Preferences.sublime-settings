@@ -1,37 +1,62 @@
 {
-	"bold_folder_labels": true,
+    "bold_folder_labels": true,
+
+    // Set Theme
 	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
+
+    // File related settings
 	"detect_indentation": false,
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
-	"file_exclude_patterns":
-	[
-		"*.beam",
-		".DS_Store"
-	],
-	"folder_exclude_patterns":
-	[
-		"bin",
-		".git",
-		".sass-cache",
-		"tmp"
-	],
-	"font_face": "Fantasque Sans Mono",
-	"font_size": 13.0,
-	"highlight_line": true,
-	"highlight_modified_tabs": true,
+    "default_encoding": "UTF-8",
+    "fallback_encoding": "UTF-8",
+    "default_line_ending": "unix",
+
+    // Ignore certain packages
 	"ignored_packages":
 	[
 		"Vintage"
 	],
+
+    // Hide certain files and folders
+    "file_exclude_patterns":
+    [
+        "*.beam",
+        ".DS_Store"
+    ],
+    "folder_exclude_patterns":
+    [
+        "bin",
+        ".git",
+        ".sass-cache",
+        "tmp"
+    ],
+
+    // Set font face and size
+    "font_face": "Fantasque Sans Mono",
+    "font_size": 13.0,
+
+    // Highlight current line
+    "highlight_line": true,
+
+    // Highlight modified tab name
+    "highlight_modified_tabs": true,
 	"open_files_in_new_window": false,
+
+    // Put a rule mark on columns 80 and 120
 	"rulers":
 	[
 		80,
 		120
 	],
+
+    // Allow scrolling past end of file
 	"scroll_past_end": true,
+
+    // Set tab size and always use spaces
 	"tab_size": 4,
 	"translate_tabs_to_spaces": true,
+
+    // Trim trailing spaces on save
 	"trim_trailing_white_space_on_save": true
 }
