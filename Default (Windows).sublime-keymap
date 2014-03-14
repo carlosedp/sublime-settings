@@ -6,16 +6,23 @@
     { "keys": ["f6"], "command": "toggle_white_space"},
 
     { "keys": ["ctrl+shift+w"], "command": "delete_trailing_spaces"},
-  { "keys": ["ctrl+shift+c"], "command": "toggle_comment", "args": { "block": false } },
+    { "keys": ["ctrl+shift+c"], "command": "toggle_comment", "args": { "block": false } },
 
-  { "keys": ["ctrl+enter"], "command": "move_to", "args": {"to": "brackets"} },
-  // FileBroser bindings
-  {
-      "keys": ["enter"],
-      "command": "dired_open_file_and_close_dired",
-      "context": [
-        { "key": "selector", "operator": "equal", "operand": "text.dired" },
-        { "key": "setting.dired_rename_mode", "operand": false }
-      ]
-  }
+    { "keys": ["ctrl+enter"], "command": "move_to", "args": {"to": "brackets"} },
+
+    // FileBroser bindings
+    {
+        "keys": ["enter"],
+        "command": "dired_open_file_and_close_dired",
+        "context": [
+            { "key": "selector", "operator": "equal", "operand": "text.dired" },
+            { "key": "setting.dired_rename_mode", "operand": false }
+        ],
+        "keys": ["escape"],
+        "command": "close",
+        "context": [
+            { "key": "selector", "operator": "equal", "operand": "text.dired" },
+            { "key": "setting.dired_rename_mode", "operand": false }
+        ]
+    }
 ]
