@@ -2,10 +2,14 @@
 	"installed_packages":
 	[
 		"BracketHighlighter",
+		"DeleteBlankLines",
 		"FileBrowser",
 		"GotoRecent",
 		"HighlightWords",
+		"MarkdownEditing",
 		"Package Control",
+		"RecentActiveFiles",
+		"SmartMarkdown",
 		"Tomorrow Color Schemes",
 		"TrailingSpaces"
 	]
