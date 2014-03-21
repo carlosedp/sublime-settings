@@ -5,6 +5,7 @@
 	"default_line_ending": "unix",
 	"detect_indentation": false,
 	"detect_slow_plugins": false,
+    "caret_style": "phase",
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
 	"fallback_encoding": "UTF-8",
