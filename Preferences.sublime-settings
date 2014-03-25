@@ -1,11 +1,11 @@
 {
 	"bold_folder_labels": true,
+	"caret_style": "phase",
 	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
 	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
 	"detect_indentation": false,
 	"detect_slow_plugins": false,
-    "caret_style": "phase",
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
 	"fallback_encoding": "UTF-8",
@@ -22,8 +22,7 @@
 		"tmp",
 		"node_modules"
 	],
-	//"font_face": "Fantasque Sans Mono",
-    "font_face": "Inconsolata",
+	"font_face": "Inconsolata",
 	"font_size": 13.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
@@ -40,5 +39,9 @@
 	"scroll_past_end": true,
 	"tab_size": 4,
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+
+    //Plugin settings
+    "last_modified_indicator": true,
+    "last_modified_indicator_multiline": true
 }
