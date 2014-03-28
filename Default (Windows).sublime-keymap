@@ -33,7 +33,9 @@
         "context": [
             { "key": "selector", "operator": "equal", "operand": "text.dired" },
             { "key": "setting.dired_rename_mode", "operand": false }
-        ],
+        ]
+    },
+    {
         "keys": ["escape"],
         "command": "close",
         "context": [

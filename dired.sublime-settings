@@ -1,3 +1,4 @@
 {
-  "color_scheme": "Packages/User/custom_dired.hidden-tmTheme"
+  "color_scheme": "Packages/User/custom_dired.hidden-tmTheme",
+  "dired_reuse_view": true
 }
