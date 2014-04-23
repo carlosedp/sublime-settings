@@ -15,6 +15,7 @@ ctrl+shift+r             -   Open Recent Files
 ctrl/cmd+f               -   Find
 ctrl/cmd+h               -   Search/Replace
 ctrl/cmd+d               -   Multiple Selections
+Ctrl+Alt+up/down         -   Multiple cursors up/down
 
 ctrl+shift+w             -   Clear trailing whitespaces
 ctrl+shift+c             -   Toggle comments
@@ -25,7 +26,6 @@ ctrl+alt+u               -   Clear Highlight words
 ctrl+shift+enter         -   Insert line before
 
 Ctrl+shift+up/down       -   Move current line up/down(Works with selection)
-Ctrl+Alt+up/down         -   Multiple cursors up/down
 ctrl+J                   -   Joins selected lines without spaces
 
 ctrl+F2                  -   Toggle bookmark

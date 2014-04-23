@@ -1,4 +1,5 @@
 {
+	"always_show_minimap_viewport": true,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
@@ -28,8 +29,11 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Markdown",
 		"Vintage"
 	],
+	"last_modified_indicator": true,
+	"last_modified_indicator_multiline": true,
 	"open_files_in_new_window": false,
 	"rulers":
 	[
@@ -39,9 +43,5 @@
 	"scroll_past_end": true,
 	"tab_size": 4,
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-
-    //Plugin settings
-    "last_modified_indicator": true,
-    "last_modified_indicator_multiline": true
+	"trim_trailing_white_space_on_save": true
 }

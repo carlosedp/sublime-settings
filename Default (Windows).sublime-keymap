@@ -13,6 +13,7 @@
     // Redefine mappings equate Mac and Windows
     { "keys": ["ctrl+w"], "command": "close" },
     { "keys": ["super+w"], "command": "close" },
+    { "keys": ["alt+w"], "command": "close_pane" },
     { "keys": ["ctrl+shift+d"], "command": "duplicate_line" },
     { "keys": ["ctrl+shift+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
     { "keys": ["ctrl+shift+r"], "command": "goto_recent" },
@@ -27,14 +28,22 @@
     { "keys": ["ctrl+j"], "command": "join_lines" },
 
     // FileBroser bindings
+    // {
+    //     "keys": ["enter"],
+    //     "command": "dired_open_file_and_close_dired",
+    //     "context": [
+    //         { "key": "selector", "operator": "equal", "operand": "text.dired" },
+    //         { "key": "setting.dired_rename_mode", "operand": false }
+    //     ]
+    // },
     {
-        "keys": ["enter"],
-        "command": "dired_open_file_and_close_dired",
-        "context": [
-            { "key": "selector", "operator": "equal", "operand": "text.dired" },
-            { "key": "setting.dired_rename_mode", "operand": false }
-        ]
-    },
+      "keys": ["enter"],
+      "command": "dired_select",
+      "context": [
+        { "key": "selector", "operator": "equal", "operand": "text.dired" },
+        { "key": "setting.dired_rename_mode", "operand": false }
+      ]
+  },
     {
         "keys": ["escape"],
         "command": "close",
