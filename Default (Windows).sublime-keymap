@@ -28,22 +28,15 @@
     { "keys": ["ctrl+j"], "command": "join_lines" },
 
     // FileBroser bindings
-    // {
-    //     "keys": ["enter"],
-    //     "command": "dired_open_file_and_close_dired",
-    //     "context": [
-    //         { "key": "selector", "operator": "equal", "operand": "text.dired" },
-    //         { "key": "setting.dired_rename_mode", "operand": false }
-    //     ]
-    // },
     {
       "keys": ["enter"],
       "command": "dired_select",
+      // "command": "dired_select", "args": {"and_close": true},
       "context": [
         { "key": "selector", "operator": "equal", "operand": "text.dired" },
         { "key": "setting.dired_rename_mode", "operand": false }
       ]
-  },
+    },
     {
         "keys": ["escape"],
         "command": "close",
