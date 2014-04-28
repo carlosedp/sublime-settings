@@ -29,8 +29,8 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Markdown"
+		"Markdown",
+		"Vintage"
 	],
 	"last_modified_indicator": true,
 	"last_modified_indicator_multiline": true,
