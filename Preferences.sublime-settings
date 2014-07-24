@@ -7,7 +7,7 @@
 	"default_line_ending": "unix",
 	"detect_indentation": false,
 	"detect_slow_plugins": false,
-	"draw_white_space": "selection",
+	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
 	"fallback_encoding": "UTF-8",
 	"file_exclude_patterns":
@@ -24,13 +24,13 @@
 		"node_modules"
 	],
 	"font_face": "Inconsolata",
-	"font_size": 13.0,
+	"font_size": 12.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Markdown"
+		"Markdown",
+		"Vintage"
 	],
 	"last_modified_indicator": true,
 	"last_modified_indicator_multiline": true,
