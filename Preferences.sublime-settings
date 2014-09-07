@@ -1,5 +1,6 @@
 {
-	"always_show_minimap_viewport": true,
+	"update_check": false,
+    "always_show_minimap_viewport": true,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
