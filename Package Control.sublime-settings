@@ -6,6 +6,8 @@
 		"DeleteBlankLines",
 		"FileBrowser",
 		"Git",
+		"GitGutter-Edge",
+		"Gitignore",
 		"GotoRecent",
 		"HighlightWords",
 		"Indent XML",
@@ -19,8 +21,13 @@
 		"SideBarEnhancements",
 		"SmartMarkdown",
 		"Statusbar Path",
+		"Sublime-Erlang",
 		"Tomorrow Color Schemes",
 		"TrailingSpaces",
 		"WordCount"
+	],
+	"repositories":
+	[
+		"https://github.com/fjl/Sublime-Erlang.git"
 	]
 }

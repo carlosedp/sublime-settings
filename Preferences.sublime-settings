@@ -30,6 +30,7 @@
 	"ignored_packages":
 	[
 		"Vintage",
+		"Erlang",
 		"Markdown"
 	],
 	"last_modified_indicator": true,
