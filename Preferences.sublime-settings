@@ -1,6 +1,5 @@
 {
-	"update_check": false,
-    "always_show_minimap_viewport": true,
+	"always_show_minimap_viewport": true,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
@@ -25,7 +24,7 @@
 		"node_modules"
 	],
 	"font_face": "Inconsolata",
-	"font_size": 12.0,
+	"font_size": 14.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -44,5 +43,6 @@
 	"scroll_past_end": true,
 	"tab_size": 4,
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"update_check": false
 }
