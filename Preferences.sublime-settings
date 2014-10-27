@@ -29,8 +29,8 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage",
 		"Erlang",
+		"Vintage",
 		"Markdown"
 	],
 	"last_modified_indicator": true,
