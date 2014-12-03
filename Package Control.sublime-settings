@@ -4,6 +4,7 @@
 		"Awk",
 		"BracketHighlighter",
 		"DeleteBlankLines",
+		"Diffy",
 		"FileBrowser",
 		"Git",
 		"GitGutter-Edge",
