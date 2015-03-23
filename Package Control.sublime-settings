@@ -2,17 +2,13 @@
 	"in_process_packages":
 	[
 	],
-	"installed_dependencies":
-	[
-		"0_package_control_loader",
-		"bz2"
-	],
 	"installed_packages":
 	[
 		"Awk",
 		"BracketHighlighter",
 		"DeleteBlankLines",
 		"Diffy",
+		"Elixir",
 		"FileBrowser",
 		"Git",
 		"GitGutter-Edge",
@@ -30,10 +26,10 @@
 		"Package Control",
 		"RecentActiveFiles",
 		"SideBarEnhancements",
-		"SmartMarkdown",
 		"SqlBeautifier",
 		"Statusbar Path",
 		"Sublime-Erlang",
+		"Theme - Gravity",
 		"Tomorrow Color Schemes",
 		"TrailingSpaces",
 		"WordCount"
