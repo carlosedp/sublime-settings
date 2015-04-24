@@ -20,11 +20,11 @@
 	],
 	"folder_exclude_patterns":
 	[
-		"bin",
 		".git",
 		".sass-cache",
 		"tmp",
-		"node_modules"
+		"node_modules",
+		"deps"
 	],
 	"font_face": "Inconsolata",
 	"font_size": 15.0,
