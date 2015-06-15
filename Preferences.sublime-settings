@@ -27,14 +27,14 @@
 		"deps"
 	],
 	"font_face": "Inconsolata",
-	"font_size": 15.0,
+	"font_size": 14.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Markdown",
+		"Vintage",
 		"Erlang",
-		"Vintage"
+		"Markdown"
 	],
 	"last_modified_indicator": true,
 	"last_modified_indicator_multiline": true,
