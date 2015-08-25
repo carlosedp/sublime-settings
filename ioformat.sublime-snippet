@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[io:format("${1:Text}: ~p~n", [${2:Data}]),]]></content>
+    <tabTrigger>iof</tabTrigger>
+    <scope>source.erlang</scope>
+    <description>io:format Expression</description>
+</snippet>
