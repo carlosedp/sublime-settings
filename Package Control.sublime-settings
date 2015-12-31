@@ -1,9 +1,13 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"GotoRecent",
+		"Statusbar Path"
 	],
 	"installed_packages":
 	[
+		"ApplySyntax",
 		"Awk",
 		"BracketHighlighter",
 		"DeleteBlankLines",

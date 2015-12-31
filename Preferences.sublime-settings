@@ -1,11 +1,11 @@
 {
 	"always_show_minimap_viewport": true,
 	"bold_folder_labels": true,
+    "theme": "Seti.sublime-theme",
 	"caret_extra_bottom": 3,
 	"caret_extra_top": 3,
 	"caret_extra_width": 2,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
 	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
 	"detect_indentation": false,
@@ -32,8 +32,11 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Markdown",
 		"Erlang",
+		"GotoRecent",
+		"Markdown",
+		"Statusbar Path",
+		"Theme - Gravity",
 		"Vintage"
 	],
 	"last_modified_indicator": true,
@@ -47,7 +50,6 @@
 	],
 	"scroll_past_end": true,
 	"tab_size": 4,
-	"theme": "Seti.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"update_check": false
