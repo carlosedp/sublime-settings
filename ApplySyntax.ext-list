@@ -19,6 +19,16 @@
 		"php5",
 		"phtml"
 	],
+	"Shell-Unix-Generic":
+	[
+		"bash",
+		"sh",
+		"zsh"
+	],
+	"XML":
+	[
+		"xml.dist"
+	],
 	"YAML":
 	[
 		".gemrc",
