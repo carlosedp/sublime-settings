@@ -7,6 +7,7 @@
 	"caret_extra_top": 3,
 	"caret_extra_width": 2,
 	"caret_style": "phase",
+	"color_scheme": "Packages/Theme - Spaceblack/Color Schemes/Spaceblack-Monokai.tmTheme",
 	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
 	"detect_indentation": false,
@@ -27,13 +28,12 @@
 		"node_modules",
 		"deps"
 	],
-	"font_face": "Inconsolata",
-	"font_size": 12.0,
+	"font_face": "Source Code Pro",
+	"font_size": 11.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Erlang",
 		"GotoRecent",
 		"Markdown",
 		"Statusbar Path",
@@ -50,7 +50,7 @@
 	],
 	"scroll_past_end": true,
 	"tab_size": 4,
-	"theme": "Seti.sublime-theme",
+	"theme": "Spaceblack.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"update_check": false
