@@ -1,6 +1,11 @@
 {
 	"Seti_ClosedFolder_dots": false,
+	"Seti_ClosedFolder_remove": false,
+	"Seti_ClosedFolder_same": false,
 	"Seti_SB_big": false,
+	"Seti_bold_heading": false,
+	"Seti_orange_button": false,
+	"Seti_sb_tree_small": false,
 	"always_show_minimap_viewport": true,
 	"bold_folder_labels": true,
 	"caret_extra_bottom": 3,
@@ -12,7 +17,7 @@
 	"default_line_ending": "unix",
 	"detect_indentation": false,
 	"detect_slow_plugins": false,
-	"draw_white_space": "selection",
+	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
 	"fallback_encoding": "UTF-8",
 	"file_exclude_patterns":
@@ -50,8 +55,7 @@
 	],
 	"scroll_past_end": true,
 	"tab_size": 4,
-	"theme": "Spaceblack.sublime-theme",
+	"theme": "Seti.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-	"update_check": false
+	"trim_trailing_white_space_on_save": true
 }
