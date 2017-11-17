@@ -2,11 +2,12 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"GotoRecent",
-		"Statusbar Path"
+		"GotoRecent"
 	],
 	"installed_packages":
 	[
+		"Anaconda",
+		"Ansible",
 		"ApplySyntax",
 		"Awk",
 		"BracketHighlighter",
@@ -14,9 +15,11 @@
 		"Diffy",
 		"EditorConfig",
 		"Elixir",
+		"Energy Color Scheme",
 		"FileBrowser",
+		"FTPSync",
 		"Git",
-		"GitGutter-Edge",
+		"GitGutter",
 		"Gitignore",
 		"GotoRecent",
 		"HexViewer",
@@ -29,8 +32,10 @@
 		"LESS",
 		"Markdown Preview",
 		"MarkdownEditing",
+		"MarkdownToHtmlClipboard",
 		"Package Control",
 		"RecentActiveFiles",
+		"requirementstxt",
 		"Seti_UI",
 		"Seti_UX",
 		"SideBarEnhancements",
@@ -46,6 +51,7 @@
 	],
 	"repositories":
 	[
-		"https://github.com/fjl/Sublime-Erlang.git"
+		"https://github.com/fjl/Sublime-Erlang.git",
+		"https://github.com/carlosedp/MarkdownToHtmlClipboard"
 	]
 }
