@@ -1,4 +1,9 @@
 {
+	"Ansible":
+	[
+		"yaml",
+		"yml"
+	],
 	"HTML (Rails)":
 	[
 		"html.erb"
@@ -19,6 +24,11 @@
 		"php4",
 		"php5",
 		"phtml"
+	],
+	"Python":
+	[
+		"py3",
+		"pyw"
 	],
 	"Shell-Unix-Generic":
 	[

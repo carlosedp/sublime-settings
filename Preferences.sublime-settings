@@ -1,10 +1,10 @@
 {
-  "auto_complete": false,
-  "auto_complete_commit_on_tab": true,
-  "auto_match_enabled": true,
 	"Seti_ClosedFolder_dots": false,
 	"Seti_SB_big": false,
 	"always_show_minimap_viewport": true,
+	"auto_complete": false,
+	"auto_complete_commit_on_tab": true,
+	"auto_match_enabled": true,
 	"bold_folder_labels": true,
 	"caret_extra_bottom": 3,
 	"caret_extra_top": 3,
@@ -14,18 +14,19 @@
 	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
 	"detect_indentation": true,
-  "draw_indent_guides": true,
 	"detect_slow_plugins": false,
+	"draw_indent_guides": true,
 	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
+	"expand_sidebar_on_startup": true,
 	"fallback_encoding": "UTF-8",
-  "find_selected_text": true,
 	"file_exclude_patterns":
 	[
 		"*.beam",
 		".DS_Store",
-    "*.pyc"
+		"*.pyc"
 	],
+	"find_selected_text": true,
 	"folder_exclude_patterns":
 	[
 		".git",
@@ -44,10 +45,24 @@
 		"Sass",
 		"Vintage"
 	],
+	"indent_to_bracket": true,
 	"last_modified_indicator": true,
 	"last_modified_indicator_multiline": true,
+	"line_padding_bottom": 0,
+	"line_padding_top": 0,
+	"match_brackets": true,
+	"match_brackets_angle": false,
+	"match_brackets_braces": true,
+	"match_brackets_content": true,
+	"match_brackets_square": true,
 	"open_files_in_new_window": false,
 	"overlay_scroll_bars": "system",
+	"pep8_ignore":
+	[
+		"E501"
+	],
+	"remember_open_files": true,
+	"remember_open_folders": true,
 	"rulers":
 	[
 		80,
@@ -58,15 +73,5 @@
 	"theme": "Seti_orig.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"update_check": true,
-  "indent_to_bracket": true,
-  "line_padding_bottom": 0,
-  "line_padding_top": 0,
-  "match_brackets": true,
-  "match_brackets_angle": false,
-  "match_brackets_braces": true,
-  "match_brackets_content": true,
-  "match_brackets_square": true,
-  "remember_open_files": true,
-  "remember_open_folders": true
+	"update_check": true
 }

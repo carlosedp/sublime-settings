@@ -19,5 +19,31 @@
 
     // Put your custom syntax rules here:
     "syntaxes": [
+        {
+            "name": "Ansible/Ansible",
+            "rules": [
+                {"file_path": ".*/tasks/.*.[yml|yaml]$"},
+                {"file_path": ".*/handler/.*.[yml|yaml]$"},
+                {"file_path": ".*/*_vars/.*.[yml|yaml]$"},
+                {"file_path": ".*/roles/.*.[yml|yaml]$"},
+                {"file_path": ".*/playbooks/.*.[yml|yaml]$"},
+                {"file_path": ".*/.*ansible.*/.*.[yml|yaml]$"}
+          ]
+        },
+        {
+            "name": "Ansible/Ansible",
+            "match": "all",
+            "extensions": ["yaml", "yml"],
+            "rules": [
+                {"first_line": "^---"}
+            ]
+        },
+        {
+            "name": "Ansible/Ansible",
+            "rules": [
+                {"file_path": ".*hosts$"},
+                {"first_line": "^[.*]$"}
+            ]
+        }
     ]
 }
