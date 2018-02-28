@@ -35,12 +35,13 @@
 		"node_modules",
 		"deps"
 	],
-	"font_face": "Source Code Pro",
+	"font_face": "Fira Code",
 	"font_size": 11.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"GotoRecent",
 		"Markdown",
 		"Sass",
 		"Vintage"
